@@ -1,0 +1,3513 @@
+{
+	"version": "0.4.0",
+	"root": {
+		"object": {
+			"node": {
+				"contentSize": {
+					"w": 0,
+					"h": 0
+				},
+				"enabled": true,
+				"anchorPoint": {
+					"x": 0,
+					"y": 0
+				},
+				"cascadeOpacityEnabled": true,
+				"color": {
+					"r": 255,
+					"g": 255,
+					"b": 255
+				},
+				"globalZOrder": 0,
+				"localZOrder": 0,
+				"opacity": 255,
+				"opacityModifyRGB": false,
+				"tag": -1,
+				"groupIndex": 0,
+				"colliders": []
+			}
+		},
+		"object_type": "Scene",
+		"children": [
+			{
+				"object": {
+					"contentSize": {
+						"w": 1136,
+						"h": 640
+					},
+					"enabled": true,
+					"name": "Canvas",
+					"anchorPoint": {
+						"x": 0.5,
+						"y": 0.5
+					},
+					"cascadeOpacityEnabled": true,
+					"color": {
+						"r": 255,
+						"g": 255,
+						"b": 255
+					},
+					"globalZOrder": 0,
+					"localZOrder": 0,
+					"opacity": 255,
+					"opacityModifyRGB": false,
+					"position": {
+						"x": 568,
+						"y": 320
+					},
+					"rotationSkewX": 0,
+					"rotationSkewY": 0,
+					"scaleX": 1,
+					"scaleY": 1,
+					"skewX": 0,
+					"skewY": 0,
+					"tag": -1,
+					"groupIndex": 0,
+					"colliders": []
+				},
+				"object_type": "Node",
+				"children": [
+					{
+						"object": {
+							"contentSize": {
+								"w": 1136,
+								"h": 640
+							},
+							"enabled": true,
+							"name": "menuAnim",
+							"anchorPoint": {
+								"x": 0.5,
+								"y": 0.5
+							},
+							"cascadeOpacityEnabled": true,
+							"color": {
+								"r": 255,
+								"g": 255,
+								"b": 255
+							},
+							"globalZOrder": 0,
+							"localZOrder": 0,
+							"opacity": 255,
+							"opacityModifyRGB": false,
+							"position": {
+								"x": 0,
+								"y": 0
+							},
+							"rotationSkewX": 0,
+							"rotationSkewY": 0,
+							"scaleX": 1,
+							"scaleY": 1,
+							"skewX": 0,
+							"skewY": 0,
+							"tag": -1,
+							"groupIndex": 0,
+							"anim": {
+								"playOnLoad": false,
+								"clips": [
+									{
+										"name": "menuAnim",
+										"duration": 2.5,
+										"sample": 60,
+										"speed": 1,
+										"wrapMode": 0,
+										"curveData": [
+											{
+												"path": "homr_logo_slash",
+												"props": {
+													"position": [
+														{
+															"frame": 0,
+															"value": {
+																"x": 568,
+																"y": 400
+															},
+															"curveType": "linear"
+														},
+														{
+															"frame": 0.2833333333333333,
+															"value": {
+																"x": 568,
+																"y": 381
+															}
+														},
+														{
+															"frame": 2.5,
+															"value": {
+																"x": 568,
+																"y": 372.5
+															}
+														}
+													]
+												}
+											},
+											{
+												"path": "homr_logo_dark",
+												"props": {
+													"position": [
+														{
+															"frame": 0,
+															"value": {
+																"x": 564,
+																"y": 451
+															},
+															"curveData": [
+																0.4,
+																0.4,
+																0.6,
+																0.6
+															]
+														},
+														{
+															"frame": 0.2833333333333333,
+															"value": {
+																"x": 564,
+																"y": 470
+															}
+														},
+														{
+															"frame": 2.5,
+															"value": {
+																"x": 564,
+																"y": 478.5
+															}
+														}
+													]
+												}
+											},
+											{
+												"path": "homr_logo_blade",
+												"props": {
+													"scaleX": [
+														{
+															"frame": 0.016666666666666666,
+															"value": 0
+														},
+														{
+															"frame": 0.25,
+															"value": 1
+														}
+													]
+												}
+											},
+											{
+												"path": "home_c_player",
+												"props": {
+													"position": [
+														{
+															"frame": 0.2,
+															"value": {
+																"x": 1245,
+																"y": 215
+															}
+														},
+														{
+															"frame": 0.5,
+															"value": {
+																"x": 790.8565217,
+																"y": 216.7086957
+															}
+														},
+														{
+															"frame": 2.5,
+															"value": {
+																"x": 777.3,
+																"y": 216.7
+															}
+														}
+													]
+												}
+											},
+											{
+												"path": "bg",
+												"props": {}
+											},
+											{
+												"path": "demon_left",
+												"props": {
+													"scaleX": [
+														{
+															"frame": 0,
+															"value": 2,
+															"curveData": [
+																0.4,
+																0.4,
+																0.6,
+																0.6
+															]
+														},
+														{
+															"frame": 0.2833333333333333,
+															"value": 1.0533333333333332
+														},
+														{
+															"frame": 2.5,
+															"value": 1
+														}
+													],
+													"scaleY": [
+														{
+															"frame": 0,
+															"value": 2,
+															"curveData": [
+																0.4,
+																0.4,
+																0.6,
+																0.6
+															]
+														},
+														{
+															"frame": 0.2833333333333333,
+															"value": 1.0533333333333332
+														},
+														{
+															"frame": 2.5,
+															"value": 1
+														}
+													],
+													"position": [
+														{
+															"frame": 0,
+															"value": {
+																"x": 582,
+																"y": 320
+															},
+															"curveData": [
+																0.4,
+																0.4,
+																0.6,
+																0.6
+															]
+														},
+														{
+															"frame": 0.2833333333333333,
+															"value": {
+																"x": 563.04,
+																"y": 320
+															}
+														},
+														{
+															"frame": 2.5,
+															"value": {
+																"x": 568,
+																"y": 320
+															}
+														}
+													]
+												}
+											},
+											{
+												"path": "demon_left_move",
+												"props": {}
+											},
+											{
+												"path": "home_c_player/home_blade",
+												"props": {
+													"scaleY": [
+														{
+															"frame": 0.5,
+															"value": 1
+														},
+														{
+															"frame": 0.5166666666666667,
+															"value": 0.6666666666666667
+														},
+														{
+															"frame": 0.8,
+															"value": 0
+														}
+													]
+												}
+											},
+											{
+												"path": "demon_left/home_c_zombie_8",
+												"props": {}
+											},
+											{
+												"path": "demon_left/home_c_zombie_7",
+												"props": {}
+											},
+											{
+												"path": "demon_left/home_c_zombie_6",
+												"props": {}
+											},
+											{
+												"path": "demon_left_move/home_c_zombie_5",
+												"props": {
+													"position": [
+														{
+															"frame": 0.18333333333333332,
+															"value": {
+																"x": -606,
+																"y": -202
+															}
+														},
+														{
+															"frame": 0.5166666666666667,
+															"value": {
+																"x": -289.4784172661878,
+																"y": -202.3884892086331
+															}
+														},
+														{
+															"frame": 2.5,
+															"value": {
+																"x": -280.1,
+																"y": -202.4
+															}
+														}
+													]
+												}
+											},
+											{
+												"path": "demon_left_move/home_c_zombie_4",
+												"props": {
+													"position": [
+														{
+															"frame": 0.1,
+															"value": {
+																"x": -654,
+																"y": -159
+															}
+														},
+														{
+															"frame": 0.36666666666666664,
+															"value": {
+																"x": -300.7083333333342,
+																"y": -158.90347222222223
+															}
+														},
+														{
+															"frame": 2.5,
+															"value": {
+																"x": -288,
+																"y": -158.9
+															}
+														}
+													]
+												}
+											},
+											{
+												"path": "demon_left_move/home_c_zombie_3",
+												"props": {
+													"position": [
+														{
+															"frame": 0.15,
+															"value": {
+																"x": -803,
+																"y": -149
+															}
+														},
+														{
+															"frame": 0.4666666666666667,
+															"value": {
+																"x": -410.092907801418,
+																"y": -148.81418439716313
+															}
+														},
+														{
+															"frame": 2.5,
+															"value": {
+																"x": -380.1,
+																"y": -148.8
+															}
+														}
+													]
+												}
+											},
+											{
+												"path": "demon_left_move/home_c_zombie_2",
+												"props": {
+													"position": [
+														{
+															"frame": 0.15,
+															"value": {
+																"x": -884,
+																"y": -131
+															}
+														},
+														{
+															"frame": 0.4166666666666667,
+															"value": {
+																"x": -476.04184397163067,
+																"y": -131
+															}
+														},
+														{
+															"frame": 2.5,
+															"value": {
+																"x": -444.9,
+																"y": -131
+															}
+														}
+													]
+												}
+											},
+											{
+												"path": "demon_left_move/home_c_zombie_1",
+												"props": {
+													"position": [
+														{
+															"frame": 0.25,
+															"value": {
+																"x": -549,
+																"y": -140
+															}
+														},
+														{
+															"frame": 0.6833333333333333,
+															"value": {
+																"x": -519.9,
+																"y": -140.1
+															}
+														}
+													]
+												}
+											},
+											{
+												"path": "demon_right",
+												"props": {
+													"scaleX": [
+														{
+															"frame": 0,
+															"value": 3
+														},
+														{
+															"frame": 0.16666666666666666,
+															"value": 1
+														}
+													],
+													"scaleY": [
+														{
+															"frame": 0,
+															"value": 3
+														},
+														{
+															"frame": 0.16666666666666666,
+															"value": 1
+														}
+													],
+													"position": [
+														{
+															"frame": 0,
+															"value": {
+																"x": -227,
+																"y": 320
+															}
+														},
+														{
+															"frame": 0.16666666666666666,
+															"value": {
+																"x": 568,
+																"y": 320
+															}
+														}
+													]
+												}
+											},
+											{
+												"path": "demon_right/home_c_dead_1_head",
+												"props": {
+													"rotation": [
+														{
+															"frame": 0.75,
+															"value": 10
+														},
+														{
+															"frame": 2.5,
+															"value": 0
+														}
+													],
+													"position": [
+														{
+															"frame": 0.5,
+															"value": {
+																"x": 451.7,
+																"y": -74.6
+															}
+														},
+														{
+															"frame": 0.5833333333333334,
+															"value": {
+																"x": 451.22,
+																"y": -57.23999999999999
+															}
+														},
+														{
+															"frame": 2.5,
+															"value": {
+																"x": 451.1,
+																"y": -52.9
+															}
+														}
+													]
+												}
+											},
+											{
+												"path": "demon_right/home_c_dead_4_head",
+												"props": {
+													"rotation": [
+														{
+															"frame": 0.75,
+															"value": 10
+														},
+														{
+															"frame": 2.5,
+															"value": 0
+														}
+													],
+													"position": [
+														{
+															"frame": 0.5,
+															"value": {
+																"x": 538.2,
+																"y": -61.1
+															}
+														},
+														{
+															"frame": 0.5833333333333334,
+															"value": {
+																"x": 535,
+																"y": -46.45999999999999
+															}
+														},
+														{
+															"frame": 2.5,
+															"value": {
+																"x": 534.2,
+																"y": -42.8
+															}
+														}
+													]
+												}
+											},
+											{
+												"path": "demon_right/home_c_dead_2_head",
+												"props": {
+													"rotation": [
+														{
+															"frame": 0.75,
+															"value": 10
+														},
+														{
+															"frame": 2.5,
+															"value": 0
+														}
+													],
+													"position": [
+														{
+															"frame": 0.5,
+															"value": {
+																"x": 375.9,
+																"y": -61
+															}
+														},
+														{
+															"frame": 0.5833333333333334,
+															"value": {
+																"x": 372.78,
+																"y": -46.599999999999994
+															}
+														},
+														{
+															"frame": 2.5,
+															"value": {
+																"x": 372,
+																"y": -43
+															}
+														}
+													]
+												}
+											},
+											{
+												"path": "demon_right/home_c_dead_3_head",
+												"props": {
+													"rotation": [
+														{
+															"frame": 0.75,
+															"value": 10
+														},
+														{
+															"frame": 2.5,
+															"value": 0
+														}
+													],
+													"position": [
+														{
+															"frame": 0.5,
+															"value": {
+																"x": 413.69,
+																"y": -84.84
+															}
+														},
+														{
+															"frame": 0.5833333333333334,
+															"value": {
+																"x": 413.938,
+																"y": -63.68799999999999
+															}
+														},
+														{
+															"frame": 2.5,
+															"value": {
+																"x": 414,
+																"y": -58.4
+															}
+														}
+													]
+												}
+											},
+											{
+												"path": "demon_right/home_c_dead_5_head",
+												"props": {
+													"rotation": [
+														{
+															"frame": 0.75,
+															"value": 10
+														},
+														{
+															"frame": 2.5,
+															"value": 0
+														}
+													],
+													"position": [
+														{
+															"frame": 0.5,
+															"value": {
+																"x": 487.7,
+																"y": -82
+															}
+														},
+														{
+															"frame": 0.5833333333333334,
+															"value": {
+																"x": 479.22,
+																"y": -21.679999999999957
+															}
+														},
+														{
+															"frame": 2.5,
+															"value": {
+																"x": 477.1,
+																"y": -6.6
+															}
+														}
+													]
+												}
+											},
+											{
+												"path": "mask",
+												"props": {
+													"opacity": [
+														{
+															"frame": 0,
+															"value": 255
+														},
+														{
+															"frame": 0.15,
+															"value": 0
+														}
+													]
+												}
+											},
+											{
+												"path": "efx_flare",
+												"props": {
+													"rotation": [
+														{
+															"frame": 0.18333333333333332,
+															"value": -40
+														},
+														{
+															"frame": 0.23333333333333334,
+															"value": 20
+														},
+														{
+															"frame": 0.65,
+															"value": 30
+														}
+													],
+													"scaleX": [
+														{
+															"frame": 0.18333333333333332,
+															"value": 0
+														},
+														{
+															"frame": 0.23333333333333334,
+															"value": 22
+														},
+														{
+															"frame": 1.3333333333333333,
+															"value": 1
+														}
+													],
+													"scaleY": [
+														{
+															"frame": 0.18333333333333332,
+															"value": 1
+														},
+														{
+															"frame": 0.23333333333333334,
+															"value": 24
+														},
+														{
+															"frame": 1.3333333333333333,
+															"value": 1
+														}
+													],
+													"opacity": [
+														{
+															"frame": 0.23333333333333334,
+															"value": 255
+														},
+														{
+															"frame": 0.65,
+															"value": 0
+														}
+													],
+													"position": [
+														{
+															"frame": 0.18333333333333332,
+															"value": {
+																"x": 372,
+																"y": 424
+															}
+														},
+														{
+															"frame": 0.23333333333333334,
+															"value": {
+																"x": 555,
+																"y": 324
+															}
+														}
+													]
+												}
+											},
+											{
+												"path": "btnGroups",
+												"props": {
+													"scaleX": [
+														{
+															"frame": 0,
+															"value": 3
+														},
+														{
+															"frame": 0.25,
+															"value": 3
+														},
+														{
+															"frame": 0.45,
+															"value": 1.1
+														},
+														{
+															"frame": 1.3333333333333333,
+															"value": 1
+														}
+													],
+													"scaleY": [
+														{
+															"frame": 0,
+															"value": 3
+														},
+														{
+															"frame": 0.25,
+															"value": 3
+														},
+														{
+															"frame": 0.45,
+															"value": 1.1
+														},
+														{
+															"frame": 1.3333333333333333,
+															"value": 1
+														}
+													]
+												}
+											},
+											{
+												"props": {}
+											}
+										]
+									}
+								],
+								"defaultClip": "menuAnim"
+							},
+							"colliders": []
+						},
+						"object_type": "Node",
+						"children": [
+							{
+								"object": {
+									"contentSize": {
+										"w": 0,
+										"h": 0
+									},
+									"enabled": true,
+									"name": "bg",
+									"anchorPoint": {
+										"x": 0.5,
+										"y": 0.5
+									},
+									"cascadeOpacityEnabled": true,
+									"color": {
+										"r": 255,
+										"g": 255,
+										"b": 255
+									},
+									"globalZOrder": 0,
+									"localZOrder": 0,
+									"opacity": 255,
+									"opacityModifyRGB": false,
+									"position": {
+										"x": 0,
+										"y": 0
+									},
+									"rotationSkewX": 0,
+									"rotationSkewY": 0,
+									"scaleX": 1,
+									"scaleY": 1,
+									"skewX": 0,
+									"skewY": 0,
+									"tag": -1,
+									"groupIndex": 0,
+									"colliders": []
+								},
+								"object_type": "Node",
+								"children": [
+									{
+										"object": {
+											"node": {
+												"contentSize": {
+													"w": 568,
+													"h": 384
+												},
+												"enabled": true,
+												"name": "home_bg",
+												"anchorPoint": {
+													"x": 0.5,
+													"y": 0.5
+												},
+												"cascadeOpacityEnabled": true,
+												"color": {
+													"r": 255,
+													"g": 255,
+													"b": 255
+												},
+												"globalZOrder": 0,
+												"localZOrder": 0,
+												"opacity": 255,
+												"opacityModifyRGB": false,
+												"position": {
+													"x": 0,
+													"y": 12
+												},
+												"rotationSkewX": 0,
+												"rotationSkewY": 0,
+												"scaleX": 2,
+												"scaleY": 2,
+												"skewX": 0,
+												"skewY": 0,
+												"tag": -1,
+												"groupIndex": 0,
+												"colliders": []
+											},
+											"spriteFrameName": "textures/background/home_bg.jpg",
+											"spriteType": "Simple",
+											"srcBlend": 770,
+											"dstBlend": 771,
+											"trimEnabled": true,
+											"sizeMode": "Trimmed"
+										},
+										"object_type": "Sprite",
+										"children": []
+									},
+									{
+										"object": {
+											"node": {
+												"contentSize": {
+													"w": 1136,
+													"h": 341
+												},
+												"enabled": true,
+												"name": "home_bg_dark_bot",
+												"anchorPoint": {
+													"x": 0.5,
+													"y": 0.5
+												},
+												"cascadeOpacityEnabled": true,
+												"color": {
+													"r": 255,
+													"g": 255,
+													"b": 255
+												},
+												"globalZOrder": 0,
+												"localZOrder": 0,
+												"opacity": 255,
+												"opacityModifyRGB": false,
+												"position": {
+													"x": 0,
+													"y": -202
+												},
+												"rotationSkewX": 0,
+												"rotationSkewY": 0,
+												"scaleX": 1,
+												"scaleY": 1,
+												"skewX": 0,
+												"skewY": 0,
+												"tag": -1,
+												"groupIndex": 0,
+												"colliders": []
+											},
+											"spriteFrameName": "textures/menu/home/home_bg_dark_bot.png",
+											"spriteType": "Simple",
+											"srcBlend": 770,
+											"dstBlend": 771,
+											"trimEnabled": true,
+											"sizeMode": "Trimmed"
+										},
+										"object_type": "Sprite",
+										"children": []
+									},
+									{
+										"object": {
+											"node": {
+												"contentSize": {
+													"w": 1136,
+													"h": 454
+												},
+												"enabled": true,
+												"name": "home_bg_dark_top",
+												"anchorPoint": {
+													"x": 0.5,
+													"y": 0.5
+												},
+												"cascadeOpacityEnabled": true,
+												"color": {
+													"r": 255,
+													"g": 255,
+													"b": 255
+												},
+												"globalZOrder": 0,
+												"localZOrder": 0,
+												"opacity": 255,
+												"opacityModifyRGB": false,
+												"position": {
+													"x": 0,
+													"y": 175
+												},
+												"rotationSkewX": 0,
+												"rotationSkewY": 0,
+												"scaleX": 1,
+												"scaleY": 1,
+												"skewX": 0,
+												"skewY": 0,
+												"tag": -1,
+												"groupIndex": 0,
+												"colliders": []
+											},
+											"spriteFrameName": "textures/menu/home/home_bg_dark_top.png",
+											"spriteType": "Simple",
+											"srcBlend": 770,
+											"dstBlend": 771,
+											"trimEnabled": true,
+											"sizeMode": "Trimmed"
+										},
+										"object_type": "Sprite",
+										"children": []
+									}
+								]
+							},
+							{
+								"object": {
+									"node": {
+										"contentSize": {
+											"w": 0,
+											"h": 0
+										},
+										"enabled": false,
+										"name": "particleAsh",
+										"anchorPoint": {
+											"x": 0.5,
+											"y": 0.5
+										},
+										"cascadeOpacityEnabled": true,
+										"color": {
+											"r": 255,
+											"g": 255,
+											"b": 255
+										},
+										"globalZOrder": 0,
+										"localZOrder": 0,
+										"opacity": 255,
+										"opacityModifyRGB": false,
+										"position": {
+											"x": 0,
+											"y": 0
+										},
+										"rotationSkewX": 0,
+										"rotationSkewY": 0,
+										"scaleX": 1,
+										"scaleY": 1,
+										"skewX": 0,
+										"skewY": 0,
+										"tag": -1,
+										"groupIndex": 0,
+										"colliders": []
+									},
+									"particleFilename": "creator/ash.plist",
+									"texturePath": "creator/textures/efx/efx_pixel_dot.png"
+								},
+								"object_type": "Particle",
+								"children": []
+							},
+							{
+								"object": {
+									"contentSize": {
+										"w": 0,
+										"h": 0
+									},
+									"enabled": true,
+									"name": "demon_left_move",
+									"anchorPoint": {
+										"x": 1,
+										"y": 0
+									},
+									"cascadeOpacityEnabled": true,
+									"color": {
+										"r": 255,
+										"g": 255,
+										"b": 255
+									},
+									"globalZOrder": 0,
+									"localZOrder": 0,
+									"opacity": 255,
+									"opacityModifyRGB": false,
+									"position": {
+										"x": 0,
+										"y": 0
+									},
+									"rotationSkewX": 0,
+									"rotationSkewY": 0,
+									"scaleX": 1,
+									"scaleY": 1,
+									"skewX": 0,
+									"skewY": 0,
+									"tag": -1,
+									"groupIndex": 0,
+									"colliders": []
+								},
+								"object_type": "Node",
+								"children": [
+									{
+										"object": {
+											"node": {
+												"contentSize": {
+													"w": 88,
+													"h": 152
+												},
+												"enabled": true,
+												"name": "home_c_zombie_1",
+												"anchorPoint": {
+													"x": 1,
+													"y": 0
+												},
+												"cascadeOpacityEnabled": true,
+												"color": {
+													"r": 255,
+													"g": 255,
+													"b": 255
+												},
+												"globalZOrder": 0,
+												"localZOrder": 0,
+												"opacity": 255,
+												"opacityModifyRGB": false,
+												"position": {
+													"x": -519.9,
+													"y": -140.1
+												},
+												"rotationSkewX": 0,
+												"rotationSkewY": 0,
+												"scaleX": 1,
+												"scaleY": 1,
+												"skewX": 0,
+												"skewY": 0,
+												"tag": -1,
+												"groupIndex": 0,
+												"colliders": []
+											},
+											"spriteFrameName": "textures/menu/home/home_c_zombie_3.png",
+											"spriteType": "Simple",
+											"srcBlend": 770,
+											"dstBlend": 771,
+											"trimEnabled": true,
+											"sizeMode": "Trimmed"
+										},
+										"object_type": "Sprite",
+										"children": []
+									},
+									{
+										"object": {
+											"node": {
+												"contentSize": {
+													"w": 94,
+													"h": 134
+												},
+												"enabled": true,
+												"name": "home_c_zombie_2",
+												"anchorPoint": {
+													"x": 1,
+													"y": 0
+												},
+												"cascadeOpacityEnabled": true,
+												"color": {
+													"r": 255,
+													"g": 255,
+													"b": 255
+												},
+												"globalZOrder": 0,
+												"localZOrder": 0,
+												"opacity": 255,
+												"opacityModifyRGB": false,
+												"position": {
+													"x": -444.9,
+													"y": -131
+												},
+												"rotationSkewX": 0,
+												"rotationSkewY": 0,
+												"scaleX": 1,
+												"scaleY": 1,
+												"skewX": 0,
+												"skewY": 0,
+												"tag": -1,
+												"groupIndex": 0,
+												"colliders": []
+											},
+											"spriteFrameName": "textures/menu/home/home_c_zombie_2.png",
+											"spriteType": "Simple",
+											"srcBlend": 770,
+											"dstBlend": 771,
+											"trimEnabled": true,
+											"sizeMode": "Trimmed"
+										},
+										"object_type": "Sprite",
+										"children": []
+									},
+									{
+										"object": {
+											"node": {
+												"contentSize": {
+													"w": 88,
+													"h": 152
+												},
+												"enabled": true,
+												"name": "home_c_zombie_3",
+												"anchorPoint": {
+													"x": 1,
+													"y": 0
+												},
+												"cascadeOpacityEnabled": true,
+												"color": {
+													"r": 255,
+													"g": 255,
+													"b": 255
+												},
+												"globalZOrder": 0,
+												"localZOrder": 0,
+												"opacity": 255,
+												"opacityModifyRGB": false,
+												"position": {
+													"x": -380.1,
+													"y": -148.8
+												},
+												"rotationSkewX": 0,
+												"rotationSkewY": 0,
+												"scaleX": 1,
+												"scaleY": 1,
+												"skewX": 0,
+												"skewY": 0,
+												"tag": -1,
+												"groupIndex": 0,
+												"colliders": []
+											},
+											"spriteFrameName": "textures/menu/home/home_c_zombie_3.png",
+											"spriteType": "Simple",
+											"srcBlend": 770,
+											"dstBlend": 771,
+											"trimEnabled": true,
+											"sizeMode": "Trimmed"
+										},
+										"object_type": "Sprite",
+										"children": []
+									},
+									{
+										"object": {
+											"node": {
+												"contentSize": {
+													"w": 62,
+													"h": 122
+												},
+												"enabled": true,
+												"name": "home_c_zombie_4",
+												"anchorPoint": {
+													"x": 1,
+													"y": 0
+												},
+												"cascadeOpacityEnabled": true,
+												"color": {
+													"r": 255,
+													"g": 255,
+													"b": 255
+												},
+												"globalZOrder": 0,
+												"localZOrder": 0,
+												"opacity": 255,
+												"opacityModifyRGB": false,
+												"position": {
+													"x": -288,
+													"y": -158.9
+												},
+												"rotationSkewX": 0,
+												"rotationSkewY": 0,
+												"scaleX": 1,
+												"scaleY": 1,
+												"skewX": 0,
+												"skewY": 0,
+												"tag": -1,
+												"groupIndex": 0,
+												"colliders": []
+											},
+											"spriteFrameName": "textures/menu/home/home_c_zombie_1.png",
+											"spriteType": "Simple",
+											"srcBlend": 770,
+											"dstBlend": 771,
+											"trimEnabled": true,
+											"sizeMode": "Trimmed"
+										},
+										"object_type": "Sprite",
+										"children": []
+									},
+									{
+										"object": {
+											"node": {
+												"contentSize": {
+													"w": 94,
+													"h": 134
+												},
+												"enabled": true,
+												"name": "home_c_zombie_5",
+												"anchorPoint": {
+													"x": 1,
+													"y": 0
+												},
+												"cascadeOpacityEnabled": true,
+												"color": {
+													"r": 255,
+													"g": 255,
+													"b": 255
+												},
+												"globalZOrder": 0,
+												"localZOrder": 0,
+												"opacity": 255,
+												"opacityModifyRGB": false,
+												"position": {
+													"x": -280.1,
+													"y": -202.4
+												},
+												"rotationSkewX": 0,
+												"rotationSkewY": 0,
+												"scaleX": 1,
+												"scaleY": 1,
+												"skewX": 0,
+												"skewY": 0,
+												"tag": -1,
+												"groupIndex": 0,
+												"colliders": []
+											},
+											"spriteFrameName": "textures/menu/home/home_c_zombie_2.png",
+											"spriteType": "Simple",
+											"srcBlend": 770,
+											"dstBlend": 771,
+											"trimEnabled": true,
+											"sizeMode": "Trimmed"
+										},
+										"object_type": "Sprite",
+										"children": []
+									}
+								]
+							},
+							{
+								"object": {
+									"contentSize": {
+										"w": 0,
+										"h": 0
+									},
+									"enabled": true,
+									"name": "demon_left",
+									"anchorPoint": {
+										"x": 0,
+										"y": 1
+									},
+									"cascadeOpacityEnabled": true,
+									"color": {
+										"r": 255,
+										"g": 255,
+										"b": 255
+									},
+									"globalZOrder": 0,
+									"localZOrder": 0,
+									"opacity": 255,
+									"opacityModifyRGB": false,
+									"position": {
+										"x": 0,
+										"y": 0
+									},
+									"rotationSkewX": 0,
+									"rotationSkewY": 0,
+									"scaleX": 1,
+									"scaleY": 1,
+									"skewX": 0,
+									"skewY": 0,
+									"tag": -1,
+									"groupIndex": 0,
+									"colliders": []
+								},
+								"object_type": "Node",
+								"children": [
+									{
+										"object": {
+											"node": {
+												"contentSize": {
+													"w": 78,
+													"h": 226
+												},
+												"enabled": true,
+												"name": "home_c_mage",
+												"anchorPoint": {
+													"x": 1,
+													"y": 0
+												},
+												"cascadeOpacityEnabled": true,
+												"color": {
+													"r": 255,
+													"g": 255,
+													"b": 255
+												},
+												"globalZOrder": 0,
+												"localZOrder": 0,
+												"opacity": 255,
+												"opacityModifyRGB": false,
+												"position": {
+													"x": -462.6,
+													"y": -114.5
+												},
+												"rotationSkewX": 0,
+												"rotationSkewY": 0,
+												"scaleX": 1,
+												"scaleY": 1,
+												"skewX": 0,
+												"skewY": 0,
+												"tag": -1,
+												"groupIndex": 0,
+												"colliders": []
+											},
+											"spriteFrameName": "textures/menu/home/home_c_mage.png",
+											"spriteType": "Simple",
+											"srcBlend": 770,
+											"dstBlend": 771,
+											"trimEnabled": true,
+											"sizeMode": "Trimmed"
+										},
+										"object_type": "Sprite",
+										"children": []
+									},
+									{
+										"object": {
+											"node": {
+												"contentSize": {
+													"w": 130,
+													"h": 210
+												},
+												"enabled": true,
+												"name": "home_c_ archer",
+												"anchorPoint": {
+													"x": 1,
+													"y": 0
+												},
+												"cascadeOpacityEnabled": true,
+												"color": {
+													"r": 255,
+													"g": 255,
+													"b": 255
+												},
+												"globalZOrder": 0,
+												"localZOrder": 0,
+												"opacity": 255,
+												"opacityModifyRGB": false,
+												"position": {
+													"x": -285.4,
+													"y": -150
+												},
+												"rotationSkewX": 0,
+												"rotationSkewY": 0,
+												"scaleX": 1,
+												"scaleY": 1,
+												"skewX": 0,
+												"skewY": 0,
+												"tag": -1,
+												"groupIndex": 0,
+												"colliders": []
+											},
+											"spriteFrameName": "textures/menu/home/home_c_ archer.png",
+											"spriteType": "Simple",
+											"srcBlend": 770,
+											"dstBlend": 771,
+											"trimEnabled": true,
+											"sizeMode": "Trimmed"
+										},
+										"object_type": "Sprite",
+										"children": []
+									},
+									{
+										"object": {
+											"node": {
+												"contentSize": {
+													"w": 100,
+													"h": 188
+												},
+												"enabled": true,
+												"name": "home_c_ warrior",
+												"anchorPoint": {
+													"x": 1,
+													"y": 0
+												},
+												"cascadeOpacityEnabled": true,
+												"color": {
+													"r": 255,
+													"g": 255,
+													"b": 255
+												},
+												"globalZOrder": 0,
+												"localZOrder": 0,
+												"opacity": 255,
+												"opacityModifyRGB": false,
+												"position": {
+													"x": -219.4,
+													"y": -158.6
+												},
+												"rotationSkewX": 0,
+												"rotationSkewY": 0,
+												"scaleX": 1,
+												"scaleY": 1,
+												"skewX": 0,
+												"skewY": 0,
+												"tag": -1,
+												"groupIndex": 0,
+												"colliders": []
+											},
+											"spriteFrameName": "textures/menu/home/home_c_ warrior.png",
+											"spriteType": "Simple",
+											"srcBlend": 770,
+											"dstBlend": 771,
+											"trimEnabled": true,
+											"sizeMode": "Trimmed"
+										},
+										"object_type": "Sprite",
+										"children": []
+									},
+									{
+										"object": {
+											"node": {
+												"contentSize": {
+													"w": 62,
+													"h": 122
+												},
+												"enabled": true,
+												"name": "home_c_zombie_6",
+												"anchorPoint": {
+													"x": 1,
+													"y": 0
+												},
+												"cascadeOpacityEnabled": true,
+												"color": {
+													"r": 255,
+													"g": 255,
+													"b": 255
+												},
+												"globalZOrder": 0,
+												"localZOrder": 0,
+												"opacity": 255,
+												"opacityModifyRGB": false,
+												"position": {
+													"x": -176.3,
+													"y": -168.9
+												},
+												"rotationSkewX": 0,
+												"rotationSkewY": 0,
+												"scaleX": 1,
+												"scaleY": 1,
+												"skewX": 0,
+												"skewY": 0,
+												"tag": -1,
+												"groupIndex": 0,
+												"colliders": []
+											},
+											"spriteFrameName": "textures/menu/home/home_c_zombie_1.png",
+											"spriteType": "Simple",
+											"srcBlend": 770,
+											"dstBlend": 771,
+											"trimEnabled": true,
+											"sizeMode": "Trimmed"
+										},
+										"object_type": "Sprite",
+										"children": []
+									},
+									{
+										"object": {
+											"node": {
+												"contentSize": {
+													"w": 88,
+													"h": 152
+												},
+												"enabled": true,
+												"name": "home_c_zombie_7",
+												"anchorPoint": {
+													"x": 1,
+													"y": 0
+												},
+												"cascadeOpacityEnabled": true,
+												"color": {
+													"r": 255,
+													"g": 255,
+													"b": 255
+												},
+												"globalZOrder": 0,
+												"localZOrder": 0,
+												"opacity": 255,
+												"opacityModifyRGB": false,
+												"position": {
+													"x": -109.8,
+													"y": -194
+												},
+												"rotationSkewX": 0,
+												"rotationSkewY": 0,
+												"scaleX": 1,
+												"scaleY": 1,
+												"skewX": 0,
+												"skewY": 0,
+												"tag": -1,
+												"groupIndex": 0,
+												"colliders": []
+											},
+											"spriteFrameName": "textures/menu/home/home_c_zombie_3.png",
+											"spriteType": "Simple",
+											"srcBlend": 770,
+											"dstBlend": 771,
+											"trimEnabled": true,
+											"sizeMode": "Trimmed"
+										},
+										"object_type": "Sprite",
+										"children": []
+									},
+									{
+										"object": {
+											"node": {
+												"contentSize": {
+													"w": 62,
+													"h": 122
+												},
+												"enabled": true,
+												"name": "home_c_zombie_8",
+												"anchorPoint": {
+													"x": 1,
+													"y": 0
+												},
+												"cascadeOpacityEnabled": true,
+												"color": {
+													"r": 255,
+													"g": 255,
+													"b": 255
+												},
+												"globalZOrder": 0,
+												"localZOrder": 0,
+												"opacity": 255,
+												"opacityModifyRGB": false,
+												"position": {
+													"x": -81.8,
+													"y": -217.8
+												},
+												"rotationSkewX": 0,
+												"rotationSkewY": 0,
+												"scaleX": 1,
+												"scaleY": 1,
+												"skewX": 0,
+												"skewY": 0,
+												"tag": -1,
+												"groupIndex": 0,
+												"colliders": []
+											},
+											"spriteFrameName": "textures/menu/home/home_c_zombie_1.png",
+											"spriteType": "Simple",
+											"srcBlend": 770,
+											"dstBlend": 771,
+											"trimEnabled": true,
+											"sizeMode": "Trimmed"
+										},
+										"object_type": "Sprite",
+										"children": []
+									}
+								]
+							},
+							{
+								"object": {
+									"contentSize": {
+										"w": 0,
+										"h": 0
+									},
+									"enabled": true,
+									"name": "demon_right",
+									"anchorPoint": {
+										"x": 0.5,
+										"y": 0.5
+									},
+									"cascadeOpacityEnabled": true,
+									"color": {
+										"r": 255,
+										"g": 255,
+										"b": 255
+									},
+									"globalZOrder": 0,
+									"localZOrder": 0,
+									"opacity": 255,
+									"opacityModifyRGB": false,
+									"position": {
+										"x": 0,
+										"y": 0
+									},
+									"rotationSkewX": 0,
+									"rotationSkewY": 0,
+									"scaleX": 1,
+									"scaleY": 1,
+									"skewX": 0,
+									"skewY": 0,
+									"tag": -1,
+									"groupIndex": 0,
+									"colliders": []
+								},
+								"object_type": "Node",
+								"children": [
+									{
+										"object": {
+											"node": {
+												"contentSize": {
+													"w": 104,
+													"h": 88
+												},
+												"enabled": true,
+												"name": "home_c_dead_1_body",
+												"anchorPoint": {
+													"x": 0.5,
+													"y": 0.5
+												},
+												"cascadeOpacityEnabled": true,
+												"color": {
+													"r": 255,
+													"g": 255,
+													"b": 255
+												},
+												"globalZOrder": 0,
+												"localZOrder": 0,
+												"opacity": 255,
+												"opacityModifyRGB": false,
+												"position": {
+													"x": 456.1,
+													"y": -135.7
+												},
+												"rotationSkewX": 0,
+												"rotationSkewY": 0,
+												"scaleX": 1,
+												"scaleY": 1,
+												"skewX": 0,
+												"skewY": 0,
+												"tag": -1,
+												"groupIndex": 0,
+												"colliders": []
+											},
+											"spriteFrameName": "textures/menu/home/home_c_dead_1_body.png",
+											"spriteType": "Simple",
+											"srcBlend": 770,
+											"dstBlend": 771,
+											"trimEnabled": true,
+											"sizeMode": "Trimmed"
+										},
+										"object_type": "Sprite",
+										"children": []
+									},
+									{
+										"object": {
+											"node": {
+												"contentSize": {
+													"w": 50,
+													"h": 46
+												},
+												"enabled": true,
+												"name": "home_c_dead_1_head",
+												"anchorPoint": {
+													"x": 0.5,
+													"y": 0.5
+												},
+												"cascadeOpacityEnabled": true,
+												"color": {
+													"r": 255,
+													"g": 255,
+													"b": 255
+												},
+												"globalZOrder": 0,
+												"localZOrder": 0,
+												"opacity": 255,
+												"opacityModifyRGB": false,
+												"position": {
+													"x": 451.7,
+													"y": -74.6
+												},
+												"rotationSkewX": 0,
+												"rotationSkewY": 0,
+												"scaleX": 1,
+												"scaleY": 1,
+												"skewX": 0,
+												"skewY": 0,
+												"tag": -1,
+												"groupIndex": 0,
+												"colliders": []
+											},
+											"spriteFrameName": "textures/menu/home/home_c_dead_1_head.png",
+											"spriteType": "Simple",
+											"srcBlend": 770,
+											"dstBlend": 771,
+											"trimEnabled": true,
+											"sizeMode": "Trimmed"
+										},
+										"object_type": "Sprite",
+										"children": []
+									},
+									{
+										"object": {
+											"node": {
+												"contentSize": {
+													"w": 60,
+													"h": 62
+												},
+												"enabled": true,
+												"name": "home_c_dead_4_head",
+												"anchorPoint": {
+													"x": 0.5,
+													"y": 0.5
+												},
+												"cascadeOpacityEnabled": true,
+												"color": {
+													"r": 255,
+													"g": 255,
+													"b": 255
+												},
+												"globalZOrder": 0,
+												"localZOrder": 0,
+												"opacity": 255,
+												"opacityModifyRGB": false,
+												"position": {
+													"x": 538.2,
+													"y": -61.1
+												},
+												"rotationSkewX": 0,
+												"rotationSkewY": 0,
+												"scaleX": 1,
+												"scaleY": 1,
+												"skewX": 0,
+												"skewY": 0,
+												"tag": -1,
+												"groupIndex": 0,
+												"colliders": []
+											},
+											"spriteFrameName": "textures/menu/home/home_c_dead_2_head.png",
+											"spriteType": "Simple",
+											"srcBlend": 770,
+											"dstBlend": 771,
+											"trimEnabled": true,
+											"sizeMode": "Trimmed"
+										},
+										"object_type": "Sprite",
+										"children": []
+									},
+									{
+										"object": {
+											"node": {
+												"contentSize": {
+													"w": 116,
+													"h": 112
+												},
+												"enabled": true,
+												"name": "home_c_dead_4_body",
+												"anchorPoint": {
+													"x": 0.5,
+													"y": 0.5
+												},
+												"cascadeOpacityEnabled": true,
+												"color": {
+													"r": 255,
+													"g": 255,
+													"b": 255
+												},
+												"globalZOrder": 0,
+												"localZOrder": 0,
+												"opacity": 255,
+												"opacityModifyRGB": false,
+												"position": {
+													"x": 545.9,
+													"y": -139.9
+												},
+												"rotationSkewX": 0,
+												"rotationSkewY": 0,
+												"scaleX": 1,
+												"scaleY": 1,
+												"skewX": 0,
+												"skewY": 0,
+												"tag": -1,
+												"groupIndex": 0,
+												"colliders": []
+											},
+											"spriteFrameName": "textures/menu/home/home_c_dead_2_body.png",
+											"spriteType": "Simple",
+											"srcBlend": 770,
+											"dstBlend": 771,
+											"trimEnabled": true,
+											"sizeMode": "Trimmed"
+										},
+										"object_type": "Sprite",
+										"children": []
+									},
+									{
+										"object": {
+											"node": {
+												"contentSize": {
+													"w": 60,
+													"h": 62
+												},
+												"enabled": true,
+												"name": "home_c_dead_2_head",
+												"anchorPoint": {
+													"x": 0.5,
+													"y": 0.5
+												},
+												"cascadeOpacityEnabled": true,
+												"color": {
+													"r": 255,
+													"g": 255,
+													"b": 255
+												},
+												"globalZOrder": 0,
+												"localZOrder": 0,
+												"opacity": 255,
+												"opacityModifyRGB": false,
+												"position": {
+													"x": 375.9,
+													"y": -61
+												},
+												"rotationSkewX": 0,
+												"rotationSkewY": 0,
+												"scaleX": 1,
+												"scaleY": 1,
+												"skewX": 0,
+												"skewY": 0,
+												"tag": -1,
+												"groupIndex": 0,
+												"colliders": []
+											},
+											"spriteFrameName": "textures/menu/home/home_c_dead_2_head.png",
+											"spriteType": "Simple",
+											"srcBlend": 770,
+											"dstBlend": 771,
+											"trimEnabled": true,
+											"sizeMode": "Trimmed"
+										},
+										"object_type": "Sprite",
+										"children": []
+									},
+									{
+										"object": {
+											"node": {
+												"contentSize": {
+													"w": 116,
+													"h": 112
+												},
+												"enabled": true,
+												"name": "home_c_dead_2_body",
+												"anchorPoint": {
+													"x": 0.5,
+													"y": 0.5
+												},
+												"cascadeOpacityEnabled": true,
+												"color": {
+													"r": 255,
+													"g": 255,
+													"b": 255
+												},
+												"globalZOrder": 0,
+												"localZOrder": 0,
+												"opacity": 255,
+												"opacityModifyRGB": false,
+												"position": {
+													"x": 383.8,
+													"y": -139.6
+												},
+												"rotationSkewX": 0,
+												"rotationSkewY": 0,
+												"scaleX": 1,
+												"scaleY": 1,
+												"skewX": 0,
+												"skewY": 0,
+												"tag": -1,
+												"groupIndex": 0,
+												"colliders": []
+											},
+											"spriteFrameName": "textures/menu/home/home_c_dead_2_body.png",
+											"spriteType": "Simple",
+											"srcBlend": 770,
+											"dstBlend": 771,
+											"trimEnabled": true,
+											"sizeMode": "Trimmed"
+										},
+										"object_type": "Sprite",
+										"children": []
+									},
+									{
+										"object": {
+											"node": {
+												"contentSize": {
+													"w": 90,
+													"h": 96
+												},
+												"enabled": true,
+												"name": "home_c_dead_3_body",
+												"anchorPoint": {
+													"x": 0.5,
+													"y": 0.5
+												},
+												"cascadeOpacityEnabled": true,
+												"color": {
+													"r": 255,
+													"g": 255,
+													"b": 255
+												},
+												"globalZOrder": 0,
+												"localZOrder": 0,
+												"opacity": 255,
+												"opacityModifyRGB": false,
+												"position": {
+													"x": 431.7,
+													"y": -146.1
+												},
+												"rotationSkewX": 0,
+												"rotationSkewY": 0,
+												"scaleX": 1,
+												"scaleY": 1,
+												"skewX": 0,
+												"skewY": 0,
+												"tag": -1,
+												"groupIndex": 0,
+												"colliders": []
+											},
+											"spriteFrameName": "textures/menu/home/home_c_dead_3_body.png",
+											"spriteType": "Simple",
+											"srcBlend": 770,
+											"dstBlend": 771,
+											"trimEnabled": true,
+											"sizeMode": "Trimmed"
+										},
+										"object_type": "Sprite",
+										"children": []
+									},
+									{
+										"object": {
+											"node": {
+												"contentSize": {
+													"w": 44,
+													"h": 42
+												},
+												"enabled": true,
+												"name": "home_c_dead_3_head",
+												"anchorPoint": {
+													"x": 0.5,
+													"y": 0.5
+												},
+												"cascadeOpacityEnabled": true,
+												"color": {
+													"r": 255,
+													"g": 255,
+													"b": 255
+												},
+												"globalZOrder": 0,
+												"localZOrder": 0,
+												"opacity": 255,
+												"opacityModifyRGB": false,
+												"position": {
+													"x": 413.69,
+													"y": -84.84
+												},
+												"rotationSkewX": 0,
+												"rotationSkewY": 0,
+												"scaleX": 1,
+												"scaleY": 1,
+												"skewX": 0,
+												"skewY": 0,
+												"tag": -1,
+												"groupIndex": 0,
+												"colliders": []
+											},
+											"spriteFrameName": "textures/menu/home/home_c_dead_3_head.png",
+											"spriteType": "Simple",
+											"srcBlend": 770,
+											"dstBlend": 771,
+											"trimEnabled": true,
+											"sizeMode": "Trimmed"
+										},
+										"object_type": "Sprite",
+										"children": []
+									},
+									{
+										"object": {
+											"node": {
+												"contentSize": {
+													"w": 90,
+													"h": 96
+												},
+												"enabled": true,
+												"name": "home_c_dead_5_body",
+												"anchorPoint": {
+													"x": 0.5,
+													"y": 0.5
+												},
+												"cascadeOpacityEnabled": true,
+												"color": {
+													"r": 255,
+													"g": 255,
+													"b": 255
+												},
+												"globalZOrder": 0,
+												"localZOrder": 0,
+												"opacity": 255,
+												"opacityModifyRGB": false,
+												"position": {
+													"x": 504.9,
+													"y": -146.1
+												},
+												"rotationSkewX": 0,
+												"rotationSkewY": 0,
+												"scaleX": 1,
+												"scaleY": 1,
+												"skewX": 0,
+												"skewY": 0,
+												"tag": -1,
+												"groupIndex": 0,
+												"colliders": []
+											},
+											"spriteFrameName": "textures/menu/home/home_c_dead_3_body.png",
+											"spriteType": "Simple",
+											"srcBlend": 770,
+											"dstBlend": 771,
+											"trimEnabled": true,
+											"sizeMode": "Trimmed"
+										},
+										"object_type": "Sprite",
+										"children": []
+									},
+									{
+										"object": {
+											"node": {
+												"contentSize": {
+													"w": 44,
+													"h": 42
+												},
+												"enabled": true,
+												"name": "home_c_dead_5_head",
+												"anchorPoint": {
+													"x": 0.5,
+													"y": 0.5
+												},
+												"cascadeOpacityEnabled": true,
+												"color": {
+													"r": 255,
+													"g": 255,
+													"b": 255
+												},
+												"globalZOrder": 0,
+												"localZOrder": 0,
+												"opacity": 255,
+												"opacityModifyRGB": false,
+												"position": {
+													"x": 487.7,
+													"y": -82
+												},
+												"rotationSkewX": 0,
+												"rotationSkewY": 0,
+												"scaleX": -1,
+												"scaleY": 1,
+												"skewX": 0,
+												"skewY": 0,
+												"tag": -1,
+												"groupIndex": 0,
+												"colliders": []
+											},
+											"spriteFrameName": "textures/menu/home/home_c_dead_3_head.png",
+											"spriteType": "Simple",
+											"srcBlend": 770,
+											"dstBlend": 771,
+											"trimEnabled": true,
+											"sizeMode": "Trimmed"
+										},
+										"object_type": "Sprite",
+										"children": []
+									}
+								]
+							},
+							{
+								"object": {
+									"node": {
+										"contentSize": {
+											"w": 459,
+											"h": 138
+										},
+										"enabled": true,
+										"name": "homr_logo_dark",
+										"anchorPoint": {
+											"x": 0.5,
+											"y": 0.5
+										},
+										"cascadeOpacityEnabled": true,
+										"color": {
+											"r": 255,
+											"g": 255,
+											"b": 255
+										},
+										"globalZOrder": 0,
+										"localZOrder": 0,
+										"opacity": 255,
+										"opacityModifyRGB": false,
+										"position": {
+											"x": -3.1,
+											"y": 158.5
+										},
+										"rotationSkewX": 0,
+										"rotationSkewY": 0,
+										"scaleX": 1,
+										"scaleY": 1,
+										"skewX": 0,
+										"skewY": 0,
+										"tag": -1,
+										"groupIndex": 0,
+										"colliders": []
+									},
+									"spriteFrameName": "textures/menu/home/homr_logo_dark.png",
+									"spriteType": "Simple",
+									"srcBlend": 770,
+									"dstBlend": 771,
+									"trimEnabled": true,
+									"sizeMode": "Trimmed"
+								},
+								"object_type": "Sprite",
+								"children": []
+							},
+							{
+								"object": {
+									"node": {
+										"contentSize": {
+											"w": 449,
+											"h": 120
+										},
+										"enabled": true,
+										"name": "homr_logo_slash",
+										"anchorPoint": {
+											"x": 0.5,
+											"y": 0.5
+										},
+										"cascadeOpacityEnabled": true,
+										"color": {
+											"r": 255,
+											"g": 255,
+											"b": 255
+										},
+										"globalZOrder": 0,
+										"localZOrder": 0,
+										"opacity": 255,
+										"opacityModifyRGB": false,
+										"position": {
+											"x": 0,
+											"y": 52.2
+										},
+										"rotationSkewX": 0,
+										"rotationSkewY": 0,
+										"scaleX": 1,
+										"scaleY": 1,
+										"skewX": 0,
+										"skewY": 0,
+										"tag": -1,
+										"groupIndex": 0,
+										"colliders": []
+									},
+									"spriteFrameName": "textures/menu/home/homr_logo_slash.png",
+									"spriteType": "Simple",
+									"srcBlend": 770,
+									"dstBlend": 771,
+									"trimEnabled": true,
+									"sizeMode": "Trimmed"
+								},
+								"object_type": "Sprite",
+								"children": []
+							},
+							{
+								"object": {
+									"node": {
+										"contentSize": {
+											"w": 607,
+											"h": 28
+										},
+										"enabled": true,
+										"name": "homr_logo_blade",
+										"anchorPoint": {
+											"x": 0.5,
+											"y": 0.5
+										},
+										"cascadeOpacityEnabled": true,
+										"color": {
+											"r": 255,
+											"g": 255,
+											"b": 255
+										},
+										"globalZOrder": 0,
+										"localZOrder": 0,
+										"opacity": 255,
+										"opacityModifyRGB": false,
+										"position": {
+											"x": 0,
+											"y": 102
+										},
+										"rotationSkewX": 0,
+										"rotationSkewY": 0,
+										"scaleX": 1,
+										"scaleY": 1,
+										"skewX": 0,
+										"skewY": 0,
+										"tag": -1,
+										"groupIndex": 0,
+										"colliders": []
+									},
+									"spriteFrameName": "textures/menu/home/homr_logo_blade.png",
+									"spriteType": "Simple",
+									"srcBlend": 770,
+									"dstBlend": 771,
+									"trimEnabled": true,
+									"sizeMode": "Trimmed"
+								},
+								"object_type": "Sprite",
+								"children": []
+							},
+							{
+								"object": {
+									"node": {
+										"contentSize": {
+											"w": 100,
+											"h": 100
+										},
+										"enabled": true,
+										"name": "efx_flare",
+										"anchorPoint": {
+											"x": 0.5,
+											"y": 0.5
+										},
+										"cascadeOpacityEnabled": true,
+										"color": {
+											"r": 255,
+											"g": 46,
+											"b": 0
+										},
+										"globalZOrder": 0,
+										"localZOrder": 0,
+										"opacity": 255,
+										"opacityModifyRGB": false,
+										"position": {
+											"x": -196,
+											"y": 104
+										},
+										"rotationSkewX": 0,
+										"rotationSkewY": 0,
+										"scaleX": 1,
+										"scaleY": 1,
+										"skewX": 0,
+										"skewY": 0,
+										"tag": -1,
+										"groupIndex": 0,
+										"colliders": []
+									},
+									"spriteFrameName": "textures/efx/efx_flare.png",
+									"spriteType": "Simple",
+									"srcBlend": 770,
+									"dstBlend": 771,
+									"trimEnabled": true,
+									"sizeMode": "Trimmed"
+								},
+								"object_type": "Sprite",
+								"children": []
+							},
+							{
+								"object": {
+									"node": {
+										"contentSize": {
+											"w": 214,
+											"h": 122
+										},
+										"enabled": true,
+										"name": "home_c_player",
+										"anchorPoint": {
+											"x": 0.5,
+											"y": 0.5
+										},
+										"cascadeOpacityEnabled": true,
+										"color": {
+											"r": 255,
+											"g": 255,
+											"b": 255
+										},
+										"globalZOrder": 0,
+										"localZOrder": 0,
+										"opacity": 255,
+										"opacityModifyRGB": false,
+										"position": {
+											"x": 209.3,
+											"y": -104.7
+										},
+										"rotationSkewX": 0,
+										"rotationSkewY": 0,
+										"scaleX": 1,
+										"scaleY": 1,
+										"skewX": 0,
+										"skewY": 0,
+										"tag": -1,
+										"groupIndex": 0,
+										"colliders": []
+									},
+									"spriteFrameName": "textures/menu/home/home_c_player.png",
+									"spriteType": "Simple",
+									"srcBlend": 770,
+									"dstBlend": 771,
+									"trimEnabled": true,
+									"sizeMode": "Trimmed"
+								},
+								"object_type": "Sprite",
+								"children": [
+									{
+										"object": {
+											"node": {
+												"contentSize": {
+													"w": 294,
+													"h": 180
+												},
+												"enabled": true,
+												"name": "home_player_light_bg",
+												"anchorPoint": {
+													"x": 0.5,
+													"y": 0.5
+												},
+												"cascadeOpacityEnabled": true,
+												"color": {
+													"r": 255,
+													"g": 255,
+													"b": 255
+												},
+												"globalZOrder": 0,
+												"localZOrder": 0,
+												"opacity": 255,
+												"opacityModifyRGB": false,
+												"position": {
+													"x": 0,
+													"y": 0
+												},
+												"rotationSkewX": 0,
+												"rotationSkewY": 0,
+												"scaleX": 1,
+												"scaleY": 1,
+												"skewX": 0,
+												"skewY": 0,
+												"tag": -1,
+												"groupIndex": 0,
+												"colliders": []
+											},
+											"spriteFrameName": "textures/menu/home/home_player_light_bg.png",
+											"spriteType": "Simple",
+											"srcBlend": 770,
+											"dstBlend": 771,
+											"trimEnabled": true,
+											"sizeMode": "Trimmed"
+										},
+										"object_type": "Sprite",
+										"children": []
+									},
+									{
+										"object": {
+											"node": {
+												"contentSize": {
+													"w": 23,
+													"h": 334
+												},
+												"enabled": true,
+												"name": "home_blade",
+												"anchorPoint": {
+													"x": 0,
+													"y": 1
+												},
+												"cascadeOpacityEnabled": true,
+												"color": {
+													"r": 255,
+													"g": 255,
+													"b": 255
+												},
+												"globalZOrder": 0,
+												"localZOrder": 0,
+												"opacity": 255,
+												"opacityModifyRGB": false,
+												"position": {
+													"x": 22,
+													"y": -8
+												},
+												"rotationSkewX": -90,
+												"rotationSkewY": -90,
+												"scaleX": 1,
+												"scaleY": 1,
+												"skewX": 0,
+												"skewY": 0,
+												"tag": -1,
+												"groupIndex": 0,
+												"colliders": []
+											},
+											"spriteFrameName": "textures/menu/home/home_blade.png",
+											"spriteType": "Simple",
+											"srcBlend": 770,
+											"dstBlend": 771,
+											"trimEnabled": true,
+											"sizeMode": "Trimmed"
+										},
+										"object_type": "Sprite",
+										"children": []
+									}
+								]
+							},
+							{
+								"object": {
+									"contentSize": {
+										"w": 1136,
+										"h": 640
+									},
+									"enabled": true,
+									"name": "btnGroups",
+									"anchorPoint": {
+										"x": 0.5,
+										"y": 0.5
+									},
+									"cascadeOpacityEnabled": true,
+									"color": {
+										"r": 255,
+										"g": 255,
+										"b": 255
+									},
+									"globalZOrder": 0,
+									"localZOrder": 0,
+									"opacity": 255,
+									"opacityModifyRGB": false,
+									"position": {
+										"x": 0,
+										"y": 0
+									},
+									"rotationSkewX": 0,
+									"rotationSkewY": 0,
+									"scaleX": 1,
+									"scaleY": 1,
+									"skewX": 0,
+									"skewY": 0,
+									"tag": -1,
+									"groupIndex": 0,
+									"colliders": []
+								},
+								"object_type": "Node",
+								"children": [
+									{
+										"object": {
+											"node": {
+												"contentSize": {
+													"w": 280,
+													"h": 100
+												},
+												"enabled": true,
+												"name": "btn_play",
+												"anchorPoint": {
+													"x": 0.5,
+													"y": 0.5
+												},
+												"cascadeOpacityEnabled": true,
+												"color": {
+													"r": 255,
+													"g": 255,
+													"b": 255
+												},
+												"globalZOrder": 0,
+												"localZOrder": 0,
+												"opacity": 255,
+												"opacityModifyRGB": false,
+												"position": {
+													"x": 0,
+													"y": -179
+												},
+												"rotationSkewX": 0,
+												"rotationSkewY": 0,
+												"scaleX": 1,
+												"scaleY": 1,
+												"skewX": 0,
+												"skewY": 0,
+												"tag": -1,
+												"groupIndex": 0,
+												"colliders": []
+											},
+											"ignoreContentAdaptWithSize": false,
+											"spriteFrameName": "textures/menu/home/home_btn_play.png",
+											"transition": 2,
+											"pressedSpriteFrameName": "textures/menu/home/home_btn_play_on.png",
+											"disabledSpriteFrameName": "textures/menu/home/home_btn_play.png"
+										},
+										"object_type": "Button",
+										"children": []
+									},
+									{
+										"object": {
+											"node": {
+												"contentSize": {
+													"w": 101,
+													"h": 94
+												},
+												"enabled": true,
+												"name": "btn_rank",
+												"anchorPoint": {
+													"x": 0.5,
+													"y": 0.5
+												},
+												"cascadeOpacityEnabled": true,
+												"color": {
+													"r": 255,
+													"g": 255,
+													"b": 255
+												},
+												"globalZOrder": 0,
+												"localZOrder": 0,
+												"opacity": 255,
+												"opacityModifyRGB": false,
+												"position": {
+													"x": -358,
+													"y": -176
+												},
+												"rotationSkewX": 0,
+												"rotationSkewY": 0,
+												"scaleX": 1,
+												"scaleY": 1,
+												"skewX": 0,
+												"skewY": 0,
+												"tag": -1,
+												"groupIndex": 0,
+												"colliders": []
+											},
+											"ignoreContentAdaptWithSize": false,
+											"spriteFrameName": "textures/menu/home/home_btn_rank.png",
+											"transition": 2,
+											"pressedSpriteFrameName": "textures/menu/home/home_btn_rank_on.png",
+											"disabledSpriteFrameName": "textures/menu/home/home_btn_rank.png"
+										},
+										"object_type": "Button",
+										"children": []
+									},
+									{
+										"object": {
+											"node": {
+												"contentSize": {
+													"w": 101,
+													"h": 94
+												},
+												"enabled": true,
+												"name": "btn_veewo",
+												"anchorPoint": {
+													"x": 0.5,
+													"y": 0.5
+												},
+												"cascadeOpacityEnabled": true,
+												"color": {
+													"r": 255,
+													"g": 255,
+													"b": 255
+												},
+												"globalZOrder": 0,
+												"localZOrder": 0,
+												"opacity": 255,
+												"opacityModifyRGB": false,
+												"position": {
+													"x": 358,
+													"y": -176
+												},
+												"rotationSkewX": 0,
+												"rotationSkewY": 0,
+												"scaleX": 1,
+												"scaleY": 1,
+												"skewX": 0,
+												"skewY": 0,
+												"tag": -1,
+												"groupIndex": 0,
+												"colliders": []
+											},
+											"ignoreContentAdaptWithSize": false,
+											"spriteFrameName": "textures/menu/home/home_btn_veewo.png",
+											"transition": 2,
+											"pressedSpriteFrameName": "textures/menu/home/home_btn_veewo_on.png",
+											"disabledSpriteFrameName": "textures/menu/home/home_btn_veewo.png"
+										},
+										"object_type": "Button",
+										"children": []
+									}
+								]
+							},
+							{
+								"object": {
+									"node": {
+										"contentSize": {
+											"w": 0,
+											"h": 0
+										},
+										"enabled": true,
+										"name": "particleAsh",
+										"anchorPoint": {
+											"x": 0.5,
+											"y": 0.5
+										},
+										"cascadeOpacityEnabled": true,
+										"color": {
+											"r": 255,
+											"g": 255,
+											"b": 255
+										},
+										"globalZOrder": 0,
+										"localZOrder": 0,
+										"opacity": 255,
+										"opacityModifyRGB": false,
+										"position": {
+											"x": 0,
+											"y": 0
+										},
+										"rotationSkewX": 0,
+										"rotationSkewY": 0,
+										"scaleX": 1,
+										"scaleY": 1,
+										"skewX": 0,
+										"skewY": 0,
+										"tag": -1,
+										"groupIndex": 0,
+										"colliders": []
+									},
+									"particleFilename": "creator/ash.plist",
+									"texturePath": "creator/textures/efx/efx_pixel_dot.png"
+								},
+								"object_type": "Particle",
+								"children": []
+							},
+							{
+								"object": {
+									"node": {
+										"contentSize": {
+											"w": 1360,
+											"h": 720
+										},
+										"enabled": false,
+										"name": "mask",
+										"anchorPoint": {
+											"x": 0.5,
+											"y": 0.5
+										},
+										"cascadeOpacityEnabled": true,
+										"color": {
+											"r": 0,
+											"g": 0,
+											"b": 0
+										},
+										"globalZOrder": 0,
+										"localZOrder": 0,
+										"opacity": 255,
+										"opacityModifyRGB": false,
+										"position": {
+											"x": 0,
+											"y": 0
+										},
+										"rotationSkewX": 0,
+										"rotationSkewY": 0,
+										"scaleX": 1,
+										"scaleY": 1,
+										"skewX": 0,
+										"skewY": 0,
+										"tag": -1,
+										"groupIndex": 0,
+										"colliders": []
+									},
+									"spriteFrameName": "textures/singleColor.png",
+									"spriteType": "Simple",
+									"srcBlend": 770,
+									"dstBlend": 771,
+									"trimEnabled": true,
+									"sizeMode": "Custom"
+								},
+								"object_type": "Sprite",
+								"children": []
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"designResolution": {
+		"w": 1136,
+		"h": 640
+	},
+	"resolutionFitWidth": false,
+	"resolutionFitHeight": true,
+	"spriteFrames": [
+		{
+			"name": "textures/background/home_bg.jpg",
+			"texturePath": "creator/textures/background/home_bg.jpg",
+			"rect": {
+				"x": 0,
+				"y": 0,
+				"w": 568,
+				"h": 384
+			},
+			"offset": {
+				"x": 0,
+				"y": 0
+			},
+			"rotated": false,
+			"originalSize": {
+				"w": 568,
+				"h": 384
+			},
+			"centerRect": {
+				"x": 0,
+				"y": 0,
+				"w": 568,
+				"h": 384
+			}
+		},
+		{
+			"name": "textures/menu/home/home_bg_dark_bot.png",
+			"texturePath": "creator/textures/menu/home/home_bg_dark_bot.png",
+			"rect": {
+				"x": 0,
+				"y": 16,
+				"w": 1136,
+				"h": 341
+			},
+			"offset": {
+				"x": 0,
+				"y": -8
+			},
+			"rotated": false,
+			"originalSize": {
+				"w": 1136,
+				"h": 357
+			},
+			"centerRect": {
+				"x": 0,
+				"y": 0,
+				"w": 1136,
+				"h": 341
+			}
+		},
+		{
+			"name": "textures/menu/home/home_bg_dark_top.png",
+			"texturePath": "creator/textures/menu/home/home_bg_dark_top.png",
+			"rect": {
+				"x": 0,
+				"y": 0,
+				"w": 1136,
+				"h": 454
+			},
+			"offset": {
+				"x": 0,
+				"y": 0
+			},
+			"rotated": false,
+			"originalSize": {
+				"w": 1136,
+				"h": 454
+			},
+			"centerRect": {
+				"x": 0,
+				"y": 0,
+				"w": 1136,
+				"h": 454
+			}
+		},
+		{
+			"name": "textures/menu/home/home_c_zombie_3.png",
+			"texturePath": "creator/textures/menu/home/home_c_zombie_3.png",
+			"rect": {
+				"x": 0,
+				"y": 0,
+				"w": 88,
+				"h": 152
+			},
+			"offset": {
+				"x": 0,
+				"y": 0
+			},
+			"rotated": false,
+			"originalSize": {
+				"w": 88,
+				"h": 152
+			},
+			"centerRect": {
+				"x": 0,
+				"y": 0,
+				"w": 88,
+				"h": 152
+			}
+		},
+		{
+			"name": "textures/menu/home/home_c_zombie_2.png",
+			"texturePath": "creator/textures/menu/home/home_c_zombie_2.png",
+			"rect": {
+				"x": 0,
+				"y": 0,
+				"w": 94,
+				"h": 134
+			},
+			"offset": {
+				"x": 0,
+				"y": 0
+			},
+			"rotated": false,
+			"originalSize": {
+				"w": 94,
+				"h": 134
+			},
+			"centerRect": {
+				"x": 0,
+				"y": 0,
+				"w": 94,
+				"h": 134
+			}
+		},
+		{
+			"name": "textures/menu/home/home_c_zombie_1.png",
+			"texturePath": "creator/textures/menu/home/home_c_zombie_1.png",
+			"rect": {
+				"x": 0,
+				"y": 0,
+				"w": 62,
+				"h": 122
+			},
+			"offset": {
+				"x": 0,
+				"y": 0
+			},
+			"rotated": false,
+			"originalSize": {
+				"w": 62,
+				"h": 122
+			},
+			"centerRect": {
+				"x": 0,
+				"y": 0,
+				"w": 62,
+				"h": 122
+			}
+		},
+		{
+			"name": "textures/menu/home/home_c_mage.png",
+			"texturePath": "creator/textures/menu/home/home_c_mage.png",
+			"rect": {
+				"x": 0,
+				"y": 0,
+				"w": 78,
+				"h": 226
+			},
+			"offset": {
+				"x": 0,
+				"y": 0
+			},
+			"rotated": false,
+			"originalSize": {
+				"w": 78,
+				"h": 226
+			},
+			"centerRect": {
+				"x": 0,
+				"y": 0,
+				"w": 78,
+				"h": 226
+			}
+		},
+		{
+			"name": "textures/menu/home/home_c_ archer.png",
+			"texturePath": "creator/textures/menu/home/home_c_ archer.png",
+			"rect": {
+				"x": 0,
+				"y": 0,
+				"w": 130,
+				"h": 210
+			},
+			"offset": {
+				"x": 0,
+				"y": 0
+			},
+			"rotated": false,
+			"originalSize": {
+				"w": 130,
+				"h": 210
+			},
+			"centerRect": {
+				"x": 0,
+				"y": 0,
+				"w": 130,
+				"h": 210
+			}
+		},
+		{
+			"name": "textures/menu/home/home_c_ warrior.png",
+			"texturePath": "creator/textures/menu/home/home_c_ warrior.png",
+			"rect": {
+				"x": 0,
+				"y": 0,
+				"w": 100,
+				"h": 188
+			},
+			"offset": {
+				"x": 0,
+				"y": 0
+			},
+			"rotated": false,
+			"originalSize": {
+				"w": 100,
+				"h": 188
+			},
+			"centerRect": {
+				"x": 0,
+				"y": 0,
+				"w": 100,
+				"h": 188
+			}
+		},
+		{
+			"name": "textures/menu/home/home_c_dead_1_body.png",
+			"texturePath": "creator/textures/menu/home/home_c_dead_1_body.png",
+			"rect": {
+				"x": 0,
+				"y": 0,
+				"w": 104,
+				"h": 88
+			},
+			"offset": {
+				"x": 0,
+				"y": 0
+			},
+			"rotated": false,
+			"originalSize": {
+				"w": 104,
+				"h": 88
+			},
+			"centerRect": {
+				"x": 0,
+				"y": 0,
+				"w": 104,
+				"h": 88
+			}
+		},
+		{
+			"name": "textures/menu/home/home_c_dead_1_head.png",
+			"texturePath": "creator/textures/menu/home/home_c_dead_1_head.png",
+			"rect": {
+				"x": 0,
+				"y": 0,
+				"w": 50,
+				"h": 46
+			},
+			"offset": {
+				"x": 0,
+				"y": 0
+			},
+			"rotated": false,
+			"originalSize": {
+				"w": 50,
+				"h": 46
+			},
+			"centerRect": {
+				"x": 0,
+				"y": 0,
+				"w": 50,
+				"h": 46
+			}
+		},
+		{
+			"name": "textures/menu/home/home_c_dead_2_head.png",
+			"texturePath": "creator/textures/menu/home/home_c_dead_2_head.png",
+			"rect": {
+				"x": 0,
+				"y": 0,
+				"w": 60,
+				"h": 62
+			},
+			"offset": {
+				"x": 0,
+				"y": 0
+			},
+			"rotated": false,
+			"originalSize": {
+				"w": 60,
+				"h": 62
+			},
+			"centerRect": {
+				"x": 0,
+				"y": 0,
+				"w": 60,
+				"h": 62
+			}
+		},
+		{
+			"name": "textures/menu/home/home_c_dead_2_body.png",
+			"texturePath": "creator/textures/menu/home/home_c_dead_2_body.png",
+			"rect": {
+				"x": 0,
+				"y": 0,
+				"w": 116,
+				"h": 112
+			},
+			"offset": {
+				"x": 0,
+				"y": 0
+			},
+			"rotated": false,
+			"originalSize": {
+				"w": 116,
+				"h": 112
+			},
+			"centerRect": {
+				"x": 0,
+				"y": 0,
+				"w": 116,
+				"h": 112
+			}
+		},
+		{
+			"name": "textures/menu/home/home_c_dead_3_body.png",
+			"texturePath": "creator/textures/menu/home/home_c_dead_3_body.png",
+			"rect": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 96
+			},
+			"offset": {
+				"x": 0,
+				"y": 0
+			},
+			"rotated": false,
+			"originalSize": {
+				"w": 90,
+				"h": 96
+			},
+			"centerRect": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 96
+			}
+		},
+		{
+			"name": "textures/menu/home/home_c_dead_3_head.png",
+			"texturePath": "creator/textures/menu/home/home_c_dead_3_head.png",
+			"rect": {
+				"x": 0,
+				"y": 0,
+				"w": 44,
+				"h": 42
+			},
+			"offset": {
+				"x": 0,
+				"y": 0
+			},
+			"rotated": false,
+			"originalSize": {
+				"w": 44,
+				"h": 42
+			},
+			"centerRect": {
+				"x": 0,
+				"y": 0,
+				"w": 44,
+				"h": 42
+			}
+		},
+		{
+			"name": "textures/menu/home/homr_logo_dark.png",
+			"texturePath": "creator/textures/menu/home/homr_logo_dark.png",
+			"rect": {
+				"x": 1,
+				"y": 1,
+				"w": 459,
+				"h": 138
+			},
+			"offset": {
+				"x": 0.5,
+				"y": -0.5
+			},
+			"rotated": false,
+			"originalSize": {
+				"w": 460,
+				"h": 139
+			},
+			"centerRect": {
+				"x": 0,
+				"y": 0,
+				"w": 459,
+				"h": 138
+			}
+		},
+		{
+			"name": "textures/menu/home/homr_logo_slash.png",
+			"texturePath": "creator/textures/menu/home/homr_logo_slash.png",
+			"rect": {
+				"x": 0,
+				"y": 0,
+				"w": 449,
+				"h": 120
+			},
+			"offset": {
+				"x": 0,
+				"y": 0
+			},
+			"rotated": false,
+			"originalSize": {
+				"w": 449,
+				"h": 120
+			},
+			"centerRect": {
+				"x": 0,
+				"y": 0,
+				"w": 449,
+				"h": 120
+			}
+		},
+		{
+			"name": "textures/menu/home/homr_logo_blade.png",
+			"texturePath": "creator/textures/menu/home/homr_logo_blade.png",
+			"rect": {
+				"x": 0,
+				"y": 0,
+				"w": 607,
+				"h": 28
+			},
+			"offset": {
+				"x": 0,
+				"y": 0
+			},
+			"rotated": false,
+			"originalSize": {
+				"w": 607,
+				"h": 28
+			},
+			"centerRect": {
+				"x": 0,
+				"y": 0,
+				"w": 607,
+				"h": 28
+			}
+		},
+		{
+			"name": "textures/efx/efx_flare.png",
+			"texturePath": "creator/textures/efx/efx_flare.png",
+			"rect": {
+				"x": 0,
+				"y": 0,
+				"w": 100,
+				"h": 100
+			},
+			"offset": {
+				"x": 0,
+				"y": 0
+			},
+			"rotated": false,
+			"originalSize": {
+				"w": 100,
+				"h": 100
+			},
+			"centerRect": {
+				"x": 0,
+				"y": 0,
+				"w": 100,
+				"h": 100
+			}
+		},
+		{
+			"name": "textures/menu/home/home_player_light_bg.png",
+			"texturePath": "creator/textures/menu/home/home_player_light_bg.png",
+			"rect": {
+				"x": 3,
+				"y": 3,
+				"w": 294,
+				"h": 180
+			},
+			"offset": {
+				"x": 0.5,
+				"y": -1
+			},
+			"rotated": false,
+			"originalSize": {
+				"w": 299,
+				"h": 184
+			},
+			"centerRect": {
+				"x": 0,
+				"y": 0,
+				"w": 294,
+				"h": 180
+			}
+		},
+		{
+			"name": "textures/menu/home/home_blade.png",
+			"texturePath": "creator/textures/menu/home/home_blade.png",
+			"rect": {
+				"x": 14,
+				"y": 0,
+				"w": 23,
+				"h": 334
+			},
+			"offset": {
+				"x": -2.5,
+				"y": 8
+			},
+			"rotated": false,
+			"originalSize": {
+				"w": 56,
+				"h": 350
+			},
+			"centerRect": {
+				"x": 0,
+				"y": 0,
+				"w": 23,
+				"h": 334
+			}
+		},
+		{
+			"name": "textures/menu/home/home_c_player.png",
+			"texturePath": "creator/textures/menu/home/home_c_player.png",
+			"rect": {
+				"x": 0,
+				"y": 0,
+				"w": 214,
+				"h": 122
+			},
+			"offset": {
+				"x": 0,
+				"y": 0
+			},
+			"rotated": false,
+			"originalSize": {
+				"w": 214,
+				"h": 122
+			},
+			"centerRect": {
+				"x": 0,
+				"y": 0,
+				"w": 214,
+				"h": 122
+			}
+		},
+		{
+			"name": "textures/menu/home/home_btn_play.png",
+			"texturePath": "creator/textures/menu/home/home_btn_play.png",
+			"rect": {
+				"x": 3,
+				"y": 15,
+				"w": 280,
+				"h": 100
+			},
+			"offset": {
+				"x": 1,
+				"y": -4
+			},
+			"rotated": false,
+			"originalSize": {
+				"w": 284,
+				"h": 122
+			},
+			"centerRect": {
+				"x": 0,
+				"y": 0,
+				"w": 280,
+				"h": 100
+			}
+		},
+		{
+			"name": "textures/menu/home/home_btn_play_on.png",
+			"texturePath": "creator/textures/menu/home/home_btn_play_on.png",
+			"rect": {
+				"x": 3,
+				"y": 15,
+				"w": 280,
+				"h": 100
+			},
+			"offset": {
+				"x": 1,
+				"y": -4
+			},
+			"rotated": false,
+			"originalSize": {
+				"w": 284,
+				"h": 122
+			},
+			"centerRect": {
+				"x": 0,
+				"y": 0,
+				"w": 280,
+				"h": 100
+			}
+		},
+		{
+			"name": "textures/menu/home/home_btn_rank.png",
+			"texturePath": "creator/textures/menu/home/home_btn_rank.png",
+			"rect": {
+				"x": 8,
+				"y": 6,
+				"w": 101,
+				"h": 94
+			},
+			"offset": {
+				"x": 0.5,
+				"y": 0
+			},
+			"rotated": false,
+			"originalSize": {
+				"w": 116,
+				"h": 106
+			},
+			"centerRect": {
+				"x": 0,
+				"y": 0,
+				"w": 101,
+				"h": 94
+			}
+		},
+		{
+			"name": "textures/menu/home/home_btn_rank_on.png",
+			"texturePath": "creator/textures/menu/home/home_btn_rank_on.png",
+			"rect": {
+				"x": 8,
+				"y": 6,
+				"w": 101,
+				"h": 94
+			},
+			"offset": {
+				"x": 0.5,
+				"y": 0
+			},
+			"rotated": false,
+			"originalSize": {
+				"w": 116,
+				"h": 106
+			},
+			"centerRect": {
+				"x": 0,
+				"y": 0,
+				"w": 101,
+				"h": 94
+			}
+		},
+		{
+			"name": "textures/menu/home/home_btn_veewo.png",
+			"texturePath": "creator/textures/menu/home/home_btn_veewo.png",
+			"rect": {
+				"x": 8,
+				"y": 6,
+				"w": 101,
+				"h": 94
+			},
+			"offset": {
+				"x": 0.5,
+				"y": 0
+			},
+			"rotated": false,
+			"originalSize": {
+				"w": 116,
+				"h": 106
+			},
+			"centerRect": {
+				"x": 0,
+				"y": 0,
+				"w": 101,
+				"h": 94
+			}
+		},
+		{
+			"name": "textures/menu/home/home_btn_veewo_on.png",
+			"texturePath": "creator/textures/menu/home/home_btn_veewo_on.png",
+			"rect": {
+				"x": 8,
+				"y": 6,
+				"w": 101,
+				"h": 94
+			},
+			"offset": {
+				"x": 0.5,
+				"y": 0
+			},
+			"rotated": false,
+			"originalSize": {
+				"w": 116,
+				"h": 106
+			},
+			"centerRect": {
+				"x": 0,
+				"y": 0,
+				"w": 101,
+				"h": 94
+			}
+		},
+		{
+			"name": "textures/singleColor.png",
+			"texturePath": "creator/textures/singleColor.png",
+			"rect": {
+				"x": 0,
+				"y": 0,
+				"w": 2,
+				"h": 2
+			},
+			"offset": {
+				"x": 0,
+				"y": 0
+			},
+			"rotated": false,
+			"originalSize": {
+				"w": 2,
+				"h": 2
+			},
+			"centerRect": {
+				"x": 0,
+				"y": 0,
+				"w": 2,
+				"h": 2
+			}
+		}
+	],
+	"collisionMatrix": [
+		{
+			"value": [
+				true
+			]
+		}
+	]
+}
